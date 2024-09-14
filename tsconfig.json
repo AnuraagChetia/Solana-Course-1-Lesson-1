@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "ESNext", // Enable ESModules
+    "target": "ESNext", // Target modern JavaScript features
+    "esModuleInterop": true, // Enable ESModule interoperability
+    "moduleResolution": "node" // Resolve modules using Node.js rules
+  },
+  "include": ["./**/*.ts"], // Include all .ts files
+  "exclude": ["node_modules"] // Exclude node_modules from compilation
+}
